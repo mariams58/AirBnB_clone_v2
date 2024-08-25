@@ -6,6 +6,7 @@ from flask import Flask
 # Instantiate a flask app
 app = Flask(__name__)
 
+
 # define the hbnb route
 @app.route("/", strict_slashes=False)
 def hello_hbnb():
